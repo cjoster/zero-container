@@ -26,9 +26,9 @@ Successfully built 54ec58941c8
 ```
 [cjoster@here zero-container]$ docker images
 REPOSITORY                     TAG                 IMAGE ID            CREATED             SIZE
-zero                           latest              54f9170e377c        3 seconds ago       520 B
+zero                           latest              54f9170e377c        3 seconds ago       344 B
 ```
-You read that correctly. 520 bytes.
+You read that correctly. 344 bytes.
 
 
 ```
