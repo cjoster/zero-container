@@ -23,6 +23,13 @@ Step 3/3 : CMD /zero
 Removing intermediate container 243c26b46fc7
 Successfully built 54ec58941c8
 ```
+```
+[cjoster@here zero-container]$ docker images
+REPOSITORY                     TAG                 IMAGE ID            CREATED             SIZE
+zero                           latest              54f9170e377c        3 seconds ago       520 B
+```
+You read that correctly. 520 bytes.
+
 
 ```
 [cjoster@here zero-container]$ docker run -it --rm zero
