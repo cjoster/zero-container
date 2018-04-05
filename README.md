@@ -33,8 +33,11 @@ You read that correctly. 344 bytes.
 
 ```
 [cjoster@here zero-container]$ docker run -it --rm zero
-[cjoster@here zero-container]$ echo $?
-0
+[cjoster@here zero-container]$ docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                     PORTS               NAMES
+63244cb6e60a        zero                "/zero"                  4 seconds ago       Exited (0) 3 seconds ago                       fugly_dude
+[cjoster@here zero-container]$ docker rm fugly_dude
+fugly_dude
 ```
 
 ```
