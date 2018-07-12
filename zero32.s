@@ -3,9 +3,9 @@
 
 # _start function
 _start:
-	movl $1, %eax   # Syscall 1
+	movl $1, %eax   # syscall 1
 	xorl %ebx, %ebx # return value 0
-	int  $0x80      # Syscall
+	int  $0x80      # syscall
 
         # No need to return because the exit
         # syscall never returns
