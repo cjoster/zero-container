@@ -5,7 +5,7 @@
 _start:
 	
 	mov $0x3C, %rax # syscall 60
-	mov $0,    %rdi # return value 0
+	xor %rdi,  %rdi # return value 0
 	syscall
 	
         # No need to return because the exit

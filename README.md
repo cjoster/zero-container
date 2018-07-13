@@ -31,9 +31,9 @@ Successfully built c5174ae351d6
 ```
 [cjoster@here zero-container]$ docker images
 REPOSITORY                     TAG                 IMAGE ID            CREATED             SIZE
-zero                           latest              54f9170e377c        3 seconds ago       352 B
+zero                           latest              54f9170e377c        3 seconds ago       344 B
 ```
-You read that correctly. 352 bytes. Or 232 if building the 32-bit version, which you can do by saying `make 32`.
+You read that correctly. 344 bytes. Or 232 if building the 32-bit version, which you can do by saying `make 32`.
 
 
 ```
