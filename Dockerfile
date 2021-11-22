@@ -1,4 +1,3 @@
 FROM scratch
-ARG zerobin=zero64
-ADD ${zerobin} /zero
+ADD zero /zero
 CMD  [ "/zero" ]
